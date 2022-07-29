@@ -36,32 +36,7 @@
         </plugins>
     </build>
 
-    <repositories>
-        <repository>
-            <id>projectlombok.org</id>
-            <url>https://projectlombok.org/edge-releases</url>
-        </repository>
-
-        <repository>
-            <id>inventive-repo</id>
-            <url>https://repo.inventivetalent.org/content/repositories/releases</url>
-        </repository>
-    </repositories>
-
     <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>edge-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.inventivetalent</groupId>
-            <artifactId>hologramapi</artifactId>
-            <version>1.4.0</version>
-        </dependency>
-
         <dependency>
             <groupId>worldborder</groupId>
             <artifactId>worldborder</artifactId>
